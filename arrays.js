@@ -28,7 +28,6 @@ function addElementToEndOfArray(array, element) {
   var newarray = [1,2,3,4];
   return newarray = [...array, element];
 }
-
-function addElementToBeginningOfArray(array, element){
-  return [element, ...array]
+function addElementToEndOfArray(array, element) {
+  return [...array, element]
 }
