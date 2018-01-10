@@ -24,3 +24,7 @@ function accessElementInArray(array, index) {
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   return array.slice(1)
 }
+function addElementToEndOfArray(array, element) {
+  var newarray = [1,2,3,4];
+  return newarray = [...array, element];
+}
