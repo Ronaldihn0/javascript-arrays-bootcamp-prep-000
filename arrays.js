@@ -40,3 +40,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array
 }
+
+function destructivelyRemoveElementFromEndOfArray(array, element) {
+  array.pop()
+  return array
+}
