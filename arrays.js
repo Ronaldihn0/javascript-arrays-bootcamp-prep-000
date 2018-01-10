@@ -30,5 +30,4 @@ function addElementToEndOfArray(array, element) {
 }
 function removeElementFromEndOfArray(array, element) {
 return array.slice(0, 2)
-
 }
