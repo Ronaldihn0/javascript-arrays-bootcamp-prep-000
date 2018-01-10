@@ -28,3 +28,12 @@ function addElementToEndOfArray(array, element) {
   var newarray = [1,2,3,4];
   return newarray = [...array, element];
 }
+function addElementToBeginningOfArray () {
+  var addElement = [1]
+  addElement.unshift('foo')
+}
+function removeElementFromEndOfArray(array, element) {
+array.slice(0, 2)
+return array.slice(0, 2)
+
+}
